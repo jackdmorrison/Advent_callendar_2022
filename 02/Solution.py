@@ -1,7 +1,4 @@
 f = open("./File1.txt")
-#opponents:A=rock B=paper C=Scissors
-#you: X=rock Y=paper Z=Scissors
-#scores for single round X=1 Y=2 Z=3 + wether or not you win
 arr=[]
 for line in f:
     arr.append(line)

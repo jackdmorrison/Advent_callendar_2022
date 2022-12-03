@@ -1,17 +1,11 @@
 f = open("./File1.txt")
-#opponents:A=rock B=paper C=Scissors
-#scores for single round X=0 Y=3 Z=6 + wether or not you win
-# rock=1 paper=2  scissors=3
 arr=[]
 for line in f:
     arr.append(line)
 Total=0
 for item in arr:
     if(item!='\n'):
-        #temp=item.strip("\n")
-        
         tarr= item.strip("\n").split(' ')
-        
         if(tarr[1]=='X'):
             Total+=0
             if(tarr[0]=='A'):
@@ -20,7 +14,6 @@ for item in arr:
                 Total+=1
             else:
                 Total+=2
-
         elif(tarr[1]=='Y'):
             Total+=3
             if(tarr[0]=='A'):
