@@ -49,14 +49,3 @@ unused=70000000-val
 freeup=30000000-unused
 print(freeup)
 print(home.findAbove(freeup,val))
-            
-
-
-                        
-
-            
-            # if(line.splice(' ')[1]=='system-update'):
-            #     if(line.splice(' ')[1]=='--'):
-            #         difTmp=line.splice
-            #         if()
-
