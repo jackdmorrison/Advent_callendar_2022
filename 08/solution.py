@@ -8,8 +8,6 @@ def revSmaller(val,arr):
         if(val<=i):
             return False
     return True
-
-
 f= open("File1.txt")
 visible=0
 arr=[]

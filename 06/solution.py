@@ -1,6 +1,7 @@
 f = open("./File1.txt")
 arr=[]
 total=0
+
 for line in f:
     buffer=[]
     count=0
